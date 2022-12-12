@@ -1,7 +1,7 @@
 
 img {
     border-radius: 8px;
-    max-width:min-content;  
+    max-width:min-content;
     height:500px;
     display: block;
     margin-left: auto;
@@ -28,3 +28,14 @@ li{
 .bold{
     font-weight: bold;
 }
+
+.pic-collage {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+.pic-collage img {
+    padding: .5rem;
+}
+
